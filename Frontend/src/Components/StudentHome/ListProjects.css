@@ -1,0 +1,57 @@
+
+.display-projects1 {
+  max-width: 1500px;
+  
+  padding: 55px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+h1 {
+  font-size: 40px; /* Adjust the font size to your preference */
+  margin-bottom: 20px; /* Optional: Add space below the h2 */
+}
+.projects-list1 {
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 200px;
+}
+.project-item1 {
+  width: calc(50% - 10px); /* Adjust the width to create space between two projects */
+  margin-bottom: 20px;
+  margin-right: 5px; /* Decreased margin to reduce space between projects */
+  box-sizing: border-box; /* Include padding and borders in the width */
+}
+.button-style{
+  font-weight: bold;
+  margin-top: 5px;
+ 
+  padding: 8px 15px; /* Adjust padding for button size */
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block; /* Ensures the button stays within the table cell */
+}
+input[type="text"] {
+  width: 70%;
+  
+  padding: 10px;
+  
+  margin-bottom: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.searchname1{
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 120px;
+}
